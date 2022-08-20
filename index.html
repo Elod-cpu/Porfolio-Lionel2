@@ -148,15 +148,24 @@
     </div>
 
     <div  class="conteneur Cinq">
+
         <div class="bas">
-            <form id="join" action="">
-                <h4>Contact me</h4>
-                <input type="text"  id="name" placeholder="Your name" required> 
-                <input type="text"  id="fname" placeholder="Your First name" required> 
-                <input type="mail" id="mail" placeholder="Your mail" required>
-                <textarea  id="message" rows="6" placeholder="How can we help you?"></textarea>
-                <button type="submit"> Send</button>
-            </form>
+            <h4> Contact Me</h4>
+            <form
+                action="https://formspree.io/f/mgeqegoq"
+                method="POST"
+                >
+                <label>
+                    Your email:
+                    <input type="email" name="email"  placeholder="Your email">
+                </label>
+                <label>
+                    Your message:
+                    <textarea name="message" placeholder="How we can help you?"></textarea>
+                </label>
+                <!-- your other form fields go here -->
+                <button type="submit">Send</button>
+                </form>
             
         </div>
         <div class="basF">
@@ -167,6 +176,6 @@
         </div>
         
     </div>
+    
 </body>
 </html>
-<span class="iconify" data-icon="fe:app-menu" style="color: red;"></span>
