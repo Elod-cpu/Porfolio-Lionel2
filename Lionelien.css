@@ -255,8 +255,13 @@ button{
     width: 100%;
     height: 100vh;
     flex-direction: column;
+    box-shadow: 0px 24px 48px;
+    border-radius: 16px;
 }
-
+.progress-bar .progress-con .progress .HTml{
+    width: 100px;
+    background-color: red;
+}
 .Los{
     width: 100%;
     height: 20vh;
@@ -295,25 +300,50 @@ button{
     margin-top: 40px;
     margin-left: 50px;
 }
-
-.css{
-    margin-left: 300px;
-    transform-origin: left;
-	transform: perspective(90px) rotateY(13deg);
-    
+.centre{
+    width: 50%;
+    height: 70vh;
+    margin-left: 350px;
+}
+.comp1{
+    font-size: 25px;
+    margin-top: 35px;
+}
+.bar1{
+    width: 600px;
+    height: 15px;
+    background-color: #007FFF;
+}
+.comp2{
+    font-size: 25px;
+    margin-top: 35px;
+    color: white;
+}
+.bar2{
+    width: 500px;
+    height: 15px;
+    background-color: white;
+}
+.comp3{
+    font-size: 25px;
+    margin-top: 35px;
+    color: white;
+}
+.bar3{
+    width: 350px;
+    height: 15px;
+    background-color: #007FFF;
+}
+.comp4{
+    font-size: 25px;
+    margin-top: 35px;
+}
+.bar4{
+    width: 350px;
+    height: 15px;
+    background-color: white;
 }
 
-.html{
-    margin-left: 90px;
-    transform: perspective(90px) rotateY(13deg);
-}
-.java{
-    transform: perspective(90px) rotateY(13deg)
-}
-.java h3{
-    font-size: 35px;
-    text-align: center;
-}
 
 /*Fin de la troisième partie*/
 
@@ -325,23 +355,29 @@ button{
 }
 
 .work{
-    background-color:black;
     width:100%;
-    height: 18vh;
+    height: 20vh;
     color: black;
     display: flex;
     justify-content: center;
     background-color: #007FFF;
+    text-align: center;
 }
 
 .work h1{
-    margin-top: 50px;
+   transform: translate(200px,0px);
+}
+.work h6{
+    margin-top: 70px;
+    font-size: 20px;
+    color: white;
 }
 
 .items{
     height: 80vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .itemsA{
@@ -350,6 +386,7 @@ button{
    margin-left: 300px;
    margin-top: 10px;
    display: flex;
+   justify-content: space-between;
 }
 
 .itemsA img{
@@ -362,6 +399,8 @@ button{
     width:60% ;
     height: 40vh;
     transform: translate(300px, 12px);
+    display: flex;
+   justify-content: space-between;
 }
 /* formation */
 
@@ -400,9 +439,7 @@ button{
     display: flex;
     flex-direction: column;
 }
-.svf:hover{
-    color:transparent;
-}
+
 .svf img{
     width:100px;
     height: 100px;
@@ -422,6 +459,10 @@ button{
 .svf .dev{
     transform: translate(45px, 45px);
 }
+.svf .deev{
+    transform: translate(20px, 45px);
+}
+
 
 
 
@@ -433,12 +474,12 @@ button{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 120vh;
+    height: 140vh;
     background: #007FFF;
     background: linear-gradient(#007FFF, black);
 }
 .bas{
-     height: 90vh;
+     height: 100vh;
      width: 60%;
      background-color: black;
      border: 1px solid;
@@ -455,7 +496,10 @@ button{
     height: 50vh;
     transform: translate(0px, -200px);
 }
-
+.basF p{
+    color: wheat;
+    transform: translate(40px, 90px);
+}
 .left img{
     margin-left: 10px;
     width: 400px;
