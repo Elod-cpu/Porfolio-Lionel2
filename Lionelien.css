@@ -114,8 +114,9 @@ button{
     width: 50%;
     height: 55vh;
     padding: 30px;
+    box-shadow: 0px 24px 48px;
+    border-radius: 16px;
 }
-
 
 .left h4{
     color: white;
@@ -133,7 +134,7 @@ button{
     height: 45px;
     width: 180px;
     margin-left: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
     border-radius: 15px;
 }
 
@@ -152,7 +153,7 @@ button{
 
 .fin{
     width: 100%;
-    height: 15vh;
+    height: 10vh;
     background-color: #007FFF;
     display: flex;
     align-items: center;
@@ -162,7 +163,7 @@ button{
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 70px;
 }
 
@@ -176,7 +177,10 @@ button{
     margin-top: 30px;
     font-size: 30px;
 }
-
+.icon:hover{
+    color: blueviolet;
+    
+}
 /*Fin de la première partie*/
 
 .Deux{
@@ -363,7 +367,7 @@ button{
 
 .formation{
     background: #007FFF;
-    background: linear-gradient(#007FFF, #007fff);
+    background: linear-gradient(#007FFF, black,#007FFF, black);
     width: 100%;
     height: 80vh;
     display: flex;
@@ -371,28 +375,58 @@ button{
 }
 .dodo{
     width: 100%;
-    height: 12vh;
+    height: 20vh;
+    text-align: center
 }
-.dodo h1{
-    transform: translate(600px,30px);
-}
- .dodo1{
-    width: 50%;
-    height: 60vh;
-    background-color: black;
-    transform: translate(400px, 10px);
-}
- .let{
-    width: 400px;
-    height: 500px;
-}
-.formation h6{
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 15px;
-    transform: translate(-80px, 100px);
+
+.dodo h6{
+    transform: translate(0px,40px);
+    font-size: 20px;
     color: white;
-} 
+}
+.dodo1{
+    width: 90%;
+    height: 40vh;
+    transform: translate(75px, 70px);
+    display: flex;
+    justify-content: space-between;
+}
+.svf{
+    width: 250px;
+    height: 40vh;
+    border-radius: 15px;
+    box-shadow: 0px 24px 48px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.svf:hover{
+    color:transparent;
+}
+.svf img{
+    width:100px;
+    height: 100px;
+    transform: translate(50px, 40px);
+}
+.svf p{
+    font-size: 22px;
+    font-weight: 450;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transform: translate(0px, 50px);
+    display: flex;
+    justify-content: center;
+}
+.svf p:hover{
+    color: #007fff;
+}
+.svf .dev{
+    transform: translate(45px, 45px);
+}
+
+
+
+
+
 /*Fin de la quatrième partie*/
 
 .Cinq{
@@ -410,12 +444,13 @@ button{
      border: 1px solid;
      transform: translate(300px, 40px);
      border-radius: 20px;
+     box-shadow: 0px 24px 48px;
+    border-radius: 16px;
 }
 
 .basF{
     margin-left: 470px;
     margin-top: 250px;
-    background-color: aqua;
     width: 500px;
     height: 50vh;
     transform: translate(0px, -200px);
